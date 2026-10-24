@@ -1,0 +1,18 @@
+# Runtime logs
+logs/*
+
+# Keep directory structure
+!logs/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.secret
+credentials*
+
+# Temporary files
+*.tmp
+*.swp
+*~
